@@ -9,6 +9,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Frontend", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var jwtIssuer = builder.Configuration["Jwt:Issuer"]
@@ -45,6 +55,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseCors("Frontend");
 
 app.UseAuthentication();
 app.UseAuthorization();

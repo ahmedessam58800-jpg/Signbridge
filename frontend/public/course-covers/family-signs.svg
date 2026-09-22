@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+<rect width="800" height="420" rx="30" fill="#315B4C"/>
+<circle cx="675" cy="85" r="145" fill="#E5F0E9" opacity=".22"/>
+<circle cx="715" cy="355" r="160" fill="#E5F0E9" opacity=".12"/>
+<path d="M105 275c68-100 139-150 214-150s146 50 214 150" fill="none" stroke="#E5F0E9" stroke-width="22" stroke-linecap="round"/>
+<path d="M145 275v66M493 275v66" stroke="#E5F0E9" stroke-width="22" stroke-linecap="round"/>
+<text x="62" y="78" fill="#E5F0E9" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="3">FAMILY SIGNS</text>
+<text x="62" y="382" fill="#fff" font-family="Arial, sans-serif" font-size="24" opacity=".92">People close to us</text>
+</svg>

@@ -12,3 +12,31 @@ obj/
 .DS_Store
 TestResults/
 coverage/
+
+node_modules/
+frontend/dist/
+.angular/
+
+# SignBridge local/update files
+_phase*_backup_*/
+_final_polish_backup_*/
+SignBridge-Update-Pack/
+SignBridge-Phase2-Update/
+SignBridge-Phase3-Update/
+SignBridge-Final-Polish/
+
+# Local database
+src/SignBridge.Api/signbridge.db*
+
+# .NET
+**/bin/
+**/obj/
+
+# Angular
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+
+# macOS / editor
+.DS_Store
+.vscode/

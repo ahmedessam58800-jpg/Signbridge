@@ -18,6 +18,8 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
     public DbSet<LessonProgress> LessonProgress => Set<LessonProgress>();
     public DbSet<Favorite> Favorites => Set<Favorite>();
     public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
+    public DbSet<SignEntry> SignEntries => Set<SignEntry>();
+    public DbSet<Achievement> Achievements => Set<Achievement>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -40,6 +40,9 @@ public static class DependencyInjection
         services.AddScoped<ILearningService, LearningService>();
         services.AddScoped<IParentService, ParentService>();
         services.AddScoped<IContentService, ContentService>();
+        services.AddScoped<IDictionaryService, DictionaryService>();
+        services.AddScoped<IAchievementService, AchievementService>();
+        services.AddScoped<IAdminService, AdminService>();
 
         return services;
     }

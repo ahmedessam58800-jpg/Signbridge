@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+<rect width="800" height="420" rx="30" fill="#694A39"/>
+<circle cx="675" cy="85" r="145" fill="#F0D8B5" opacity=".22"/>
+<circle cx="715" cy="355" r="160" fill="#F0D8B5" opacity=".12"/>
+<path d="M105 275c68-100 139-150 214-150s146 50 214 150" fill="none" stroke="#F0D8B5" stroke-width="22" stroke-linecap="round"/>
+<path d="M145 275v66M493 275v66" stroke="#F0D8B5" stroke-width="22" stroke-linecap="round"/>
+<text x="62" y="78" fill="#F0D8B5" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="3">ARABIC ALPHABET</text>
+<text x="62" y="382" fill="#fff" font-family="Arial, sans-serif" font-size="24" opacity=".92">Visual Arabic literacy</text>
+</svg>
