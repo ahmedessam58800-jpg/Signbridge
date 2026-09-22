@@ -1,0 +1,28 @@
+@host = http://localhost:5187
+
+### Login as Child
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "child@signbridge.local",
+  "password": "Child123!"
+}
+
+### Login as Parent
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "parent@signbridge.local",
+  "password": "Parent123!"
+}
+
+### Login as Teacher
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "teacher@signbridge.local",
+  "password": "Teacher123!"
+}
